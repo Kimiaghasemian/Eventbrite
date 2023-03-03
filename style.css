@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+header {
+  display: flex;
+  height: 80px;
+}
+header img {
+  width: 150px;
+  height: 80px;
+}
+header .logo a img {
+  background-color: beige;
+}
+header .input-group input {
+  margin-top: 20px;
+}
+header nav .navbar {
+  margin-top: 15px;
+}
+header nav .navbar ul li a {
+  color: black;
+}
+main .banner {
+  position: relative;
+}
+main .onbanner {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+main .onbanner img {
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+main .onbanner .btn button {
+  background-color: orangered;
+  border: none;
+  padding: 15px;
+  color: #ffff;
+  border-radius: 5px;
+}
+main .title {
+  margin-top: 10px;
+}
+main .title h1 span {
+  color: blue;
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  text-decoration-color: rgb(175, 170, 170);
+  text-decoration-thickness: 5%;
+}
+main .list ul {
+  margin-top: 30px;
+}
+main .list ul li a {
+  color: black;
+}
+main .list ul li a:hover {
+  font-weight: 500;
+  text-underline-offset: 0.6em;
+  text-decoration: underline;
+  color: black;
+}
+main .container {
+  margin-top: 30px;
+}
+main .container .row .col-sm a {
+  display: flex;
+  height: 45px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: rgba(224, 223, 223, 0.712);
+  color: black;
+  border: 1px solid rgba(194, 192, 192, 0.712);
+}
+main .container .row .col-sm {
+  margin-bottom: 30px;
+}
+main .container .row .col-sm a .icon {
+  margin-right: 15px;
+}
+main .container .row .col-sm .icon img {
+  padding: 5px;
+}
+main h1 {
+  margin-bottom: 20px;
+}
+main .categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  row-gap: 40px;
+}
+main .categories .card a {
+  text-decoration: none;
+}
+main .categories .card a h5 {
+  margin: 10px 0px 0px 10px;
+}
+main .categories .card .card-title {
+  color: black;
+}
+main .categories .card .sp1 {
+  color: red;
+  margin: 10px 0;
+}
+main .categories .card .sp2 {
+  color: rgb(136, 131, 131);
+}
+main .categories .card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+footer {
+  background-color: #290249;
+  margin-top: 50px;
+}
+footer h5 {
+  color: #ffff;
+}
+footer ul li {
+  margin-top: 2px;
+  font-size: 12px;
+}
+footer ul a {
+  text-decoration: none;
+}
+footer .row ul li a:hover {
+  text-decoration: underline;
+}
+footer .endfooter p {
+  color: #ffff;
+  margin-top: 30px;
+}
+footer .endfooter {
+  display: flex;
+}
+footer .endfooter ul {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+footer .endfooter ul li {
+  margin-left: 20px;
+}
+footer .endfooter ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+footer .endfooter ul li a:hover {
+  color: blue;
+  text-decoration: underline;
+}

@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventbrite</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-16x16.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="https://www.eventbrite.com/"
+          ><img src="images/download.png" alt="logo"
+        /></a>
+      </div>
+      <div class="input">
+        <div class="input-group mb-3" style="width: 500px; height: 60px">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search Events"
+            aria-label="Username"
+            aria-describedby="basic-addon1" />
+        </div>
+      </div>
+      <div class="empty" style="width: 100px"></div>
+      <nav>
+        <div class="navbar">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Organized <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Help <i class="fa fa-caret-down" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: rgb(99, 65, 194)"
+                >Create an Event</a
+              >
+            </li>
+            <li class="nav-item" >
+              <a class="nav-link" href="loginpage.html" target="_blank">Log In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="banner">
+        <img src="images/banner.jpg" alt="banner" />
+      </div>
+      <div class="onbanner">
+        <img src="images/svgviewer-png-output.png" alt="onbanner" />
+        <div class="btn">
+          <button>Find your next event</button>
+        </div>
+      </div>
+      <div class="container-sm">
+        <div class="title">
+          <h1>
+            Popular in
+            <span
+              ><i class="fa fa-sort-desc" aria-hidden="true"></i>
+              Amsterdam</span
+            >
+          </h1>
+        </div>
+        <!-- title finished -->
+        <div class="list">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">For you</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Online</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"> Today</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >This Weekend</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Black History Month</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Free</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Food & Drinks</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Charity & Causes</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- list finished -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/"
+                ><div class="icon">
+                  <img src="images/music.png" alt="music" />
+                </div>
+                <div class="title">Music</div></a
+              >
+            </div>
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/">
+                <div class="icon">
+                  <img src="images/performing.png" alt="mask" />
+                </div>
+                <div class="title">Performing & Visual Arts</div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/">
+                <div class="icon">
+                  <img src="images/holiday.png" alt="gallery" />
+                </div>
+                <div class="title">Holiday</div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/">
+                <div class="icon">
+                  <img src="images/health.png" alt="" />
+                </div>
+                <div class="title">Health</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/"
+                ><div class="icon">
+                  <img src="images/hobbies.png" alt="casset" />
+                </div>
+                <div class="title">Hobbies</div></a
+              >
+            </div>
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/">
+                <div class="icon">
+                  <img src="images/bag.png" alt="bag" />
+                </div>
+                <div class="title">Business</div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/">
+                <div class="icon">
+                  <img src="images/drink.png" alt="drink" />
+                </div>
+                <div class="title">Food & Drink</div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a href="https://www.eventbrite.com/">
+                <div class="icon">
+                  <img src="images/shoes.png" alt="shoes" />
+                </div>
+                <div class="title">Sports & Fittness</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <h1>Events in Amsterdam</h1>
+        <div class="categories">
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col1.avif" class="card-img-top" alt="body" />
+              <h5 class="card-title">
+                The Rock Orchestra by <br />
+                Candlelight: Amsterdam
+              </h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Thu,Apr 6, 7:00 PM</span>
+              </div>
+              <div class="sp2">
+                AFAS Live. Amsterdam <br />
+                Starts at &#36;43.83
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col2.avif" class="card-img-top" alt="boy" />
+              <h5 class="card-title">Bassline Night</h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Thu, Apr 13, 11:00 PM &#43;9 more Events</span>
+              </div>
+              <div class="sp2">
+                Jungle Club Amsterdam. Amsterdam <br />Starts at &#36;8.70
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col3.avif" class="card-img-top" alt="building" />
+              <h5 class="card-title">
+                Amsterdam's Business, Tech <br />& Entrepreneur Professional
+                <br />
+                Networking soriee
+              </h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Sun, Mar 5, 6:30 PM</span>
+              </div>
+              <div class="sp2">Brouwerji Troost De Pijp.Amsterdam</div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col4.avif" class="card-img-top" alt="" />
+              <h5 class="card-title">IamExpat Fair Amsterdam <br />2023</h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Sat, Apr 22, 10:00 AM</span>
+              </div>
+              <div class="sp2">Gashouder Westergas. Amsterdam <br />Free</div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col5.avif" class="card-img-top" alt="nataniel" />
+              <h5 class="card-title">
+                NATANIEL LIVE IN <br />
+                AMSTERDAM
+              </h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Sat, May 13, 7:00 PM</span>
+              </div>
+              <div class="sp2">
+                Theater Amsterdam . Amsterdam <br />
+                Starts at &#36; 37.89
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col6.avif" class="card-img-top" alt="burmuda" />
+              <h5 class="card-title">
+                Burmuda, Amsterdam Boat <br />
+                Party
+              </h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Thu, MAr 2,7:00 PM</span>
+              </div>
+              <div class="sp2">
+                1011 AA. Amsterdam <br />Starts at &#36;43.83
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col7.avif" class="card-img-top" alt="Jungle" />
+              <h5 class="card-title">The Jungle Weekender- <br />Amsterdam</h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Fri, Mar 10, 2:00 PM</span>
+              </div>
+              <div class="sp2">
+                Panama Amsterdam . Amsterdam <br />
+                Starts at &#36;45.04
+              </div>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem">
+            <a href="https://www.eventbrite.com/">
+              <img src="images/col8.avif" class="card-img-top" alt="guys" />
+              <h5 class="card-title">Friday Night Live Music</h5>
+            </a>
+            <div class="card-body">
+              <div class="sp1">
+                <span>Fri, Feb 24, 7:30 PM &#43; 34 more events</span>
+              </div>
+              <div class="sp2">Zoku Amsterdam . Amsterdam <br />Free</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- categories finished -->
+    </main>
+    <footer>
+      <div class="container p-4">
+        <!-- Section: Links -->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 2</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 3</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 4</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 2</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 3</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 4</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 2</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 3</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 4</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 2</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 3</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 4</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+              <li>
+                <a href="https://www.eventbrite.com/" class="text-white"
+                  >Link 1</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+
+        <!-- Section: Links -->
+
+        <div class="endfooter">
+          <p>&#169;2023 Eventbrite</p>
+          <ul>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+            <li>
+              <a href="https://www.eventbrite.com/">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
